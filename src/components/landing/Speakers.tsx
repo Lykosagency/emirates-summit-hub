@@ -3,10 +3,10 @@ import nadirImg from "@/assets/nadir.png";
 import mysterySpeaker from "@/assets/mystery-speaker.png";
 
 const mysteryCards = [
-  { industry: "E-Commerce & DTC Scaling", delay: 0 },
-  { industry: "Digital Assets & Web3", delay: 150 },
-  { industry: "High-Ticket Sales Systems", delay: 300 },
-  { industry: "Content & Personal Branding", delay: 450 },
+  { industry: "E-commerce", delay: 0 },
+  { industry: "Tiktok Monetisation", delay: 150 },
+  { industry: "Personnel Branding", delay: 300 },
+  { industry: "Online Agency", delay: 450 },
 ];
 
 export default function Speakers() {
