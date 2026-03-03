@@ -7,7 +7,7 @@ import BeforeAfter from "@/components/landing/BeforeAfter";
 import ValueStack from "@/components/landing/ValueStack";
 import TrophyShowcase from "@/components/landing/TrophyShowcase";
 import Pricing from "@/components/landing/Pricing";
-import QualificationForm from "@/components/landing/QualificationForm";
+
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
 
@@ -22,7 +22,7 @@ const Index = () => {
       <BeforeAfter />
       <ValueStack />
       <Pricing />
-      <QualificationForm />
+      
       <TrophyShowcase />
       <FAQ />
       <Footer />
