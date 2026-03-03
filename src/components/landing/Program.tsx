@@ -143,20 +143,6 @@ export default function Program() {
             ))}
           </div>
 
-          {/* Closing */}
-          <div className="text-center mt-20">
-            <p className="text-muted-foreground text-lg mb-8 tracking-wide">
-              Three days. Structured precision. Maximum leverage.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="#qualify" className="gold-gradient text-primary-foreground px-8 py-3 rounded-sm font-semibold tracking-wider text-sm hover:opacity-90 transition-opacity">
-                Apply Now
-              </a>
-              <a href="#pricing" className="border border-primary/40 text-primary px-8 py-3 rounded-sm font-semibold tracking-wider text-sm hover:bg-primary/10 transition-colors">
-                Book Your Seat
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </section>
