@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="relative py-16 border-t border-primary/10">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center text-center">
-          <img src={logo} alt="Cashflow Dubai" className="h-8 mb-6 opacity-80" />
+          <img src={logo} alt="Cashflow Dubai" className="h-14 mb-6 opacity-80" />
 
           <p className="text-sm text-muted-foreground mb-1">
             Dubai, United Arab Emirates

@@ -30,7 +30,7 @@ export default function Navbar() {
       >
         <div className="container mx-auto flex items-center justify-between px-4 lg:px-8">
           <a href="#" className="flex-shrink-0">
-            <img src={logo} alt="Cashflow Dubai" className="h-8 lg:h-10 w-auto" />
+            <img src={logo} alt="Cashflow Dubai" className="h-10 lg:h-14 w-auto" />
           </a>
 
           <div className="hidden lg:flex items-center gap-8">
