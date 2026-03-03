@@ -133,10 +133,8 @@
 
   /* Unified CTA styles */
   .cta-primary {
-    @apply inline-block gold-gradient text-primary-foreground text-sm tracking-[0.2em] uppercase px-10 py-4 rounded-sm;
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 600;
-    letter-spacing: 0.25em;
+    @apply inline-block gold-gradient text-primary-foreground text-sm tracking-[0.2em] uppercase px-10 py-4 rounded-sm font-medium;
+    font-family: 'Inter', sans-serif;
     transition: all 0.5s;
   }
   .cta-primary:hover {
@@ -145,10 +143,8 @@
   }
 
   .cta-secondary {
-    @apply inline-block border border-primary/40 text-primary text-sm tracking-[0.2em] uppercase px-10 py-4 rounded-sm;
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 600;
-    letter-spacing: 0.25em;
+    @apply inline-block border border-primary/40 text-primary text-sm tracking-[0.2em] uppercase px-10 py-4 rounded-sm font-medium;
+    font-family: 'Inter', sans-serif;
     transition: all 0.5s;
   }
   .cta-secondary:hover {
