@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -133,7 +133,10 @@
 
   /* Unified CTA styles */
   .cta-primary {
-    @apply inline-block gold-gradient text-primary-foreground font-display text-sm tracking-[0.15em] uppercase px-10 py-4 rounded-sm font-semibold;
+    @apply inline-block gold-gradient text-primary-foreground text-sm tracking-[0.2em] uppercase px-10 py-4 rounded-sm;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    letter-spacing: 0.25em;
     transition: all 0.5s;
   }
   .cta-primary:hover {
@@ -142,7 +145,10 @@
   }
 
   .cta-secondary {
-    @apply inline-block border border-primary/40 text-primary font-display text-sm tracking-[0.15em] uppercase px-10 py-4 rounded-sm font-semibold;
+    @apply inline-block border border-primary/40 text-primary text-sm tracking-[0.2em] uppercase px-10 py-4 rounded-sm;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    letter-spacing: 0.25em;
     transition: all 0.5s;
   }
   .cta-secondary:hover {
