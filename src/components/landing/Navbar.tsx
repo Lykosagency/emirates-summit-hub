@@ -4,7 +4,7 @@ import logo from "@/assets/logo.png";
 const navLinks = [
   { label: "Program", href: "#program" },
   { label: "Speakers", href: "#speakers" },
-  { label: "Experience", href: "#value" },
+  { label: "Experience", href: "#access-assets" },
   { label: "Pricing", href: "#pricing" },
   { label: "FAQ", href: "#faq" },
 ];
@@ -46,10 +46,10 @@ export default function Navbar() {
           </div>
 
           <a
-            href="#qualify"
+            href="#pricing"
             className="hidden lg:inline-flex gold-gradient text-primary-foreground px-6 py-2.5 rounded-sm text-sm font-semibold tracking-wider uppercase hover:shadow-[0_0_30px_hsla(43,56%,52%,0.3)] transition-all duration-300 hover:-translate-y-0.5"
           >
-            Book Your Seat
+            Secure Your Seat
           </a>
 
           <button
@@ -66,7 +66,6 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Mobile menu */}
       {mobileOpen && (
         <div className="fixed inset-0 z-40 bg-background/95 backdrop-blur-xl pt-20 px-6 lg:hidden">
           <div className="flex flex-col gap-6">
@@ -81,11 +80,11 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="#qualify"
+              href="#pricing"
               onClick={() => setMobileOpen(false)}
               className="gold-gradient text-primary-foreground px-6 py-3 rounded-sm text-center font-semibold tracking-wider uppercase mt-4"
             >
-              Book Your Seat
+              Secure Your Seat
             </a>
           </div>
         </div>
@@ -94,10 +93,10 @@ export default function Navbar() {
       {/* Mobile sticky CTA */}
       <div className="fixed bottom-0 left-0 right-0 z-50 lg:hidden bg-background/90 backdrop-blur-xl border-t border-primary/10 p-3">
         <a
-          href="#qualify"
+          href="#pricing"
           className="block gold-gradient text-primary-foreground text-center py-3 rounded-sm font-semibold tracking-wider uppercase text-sm"
         >
-          Book Your Seat — 5,000 AED
+          Secure Your Seat — 3,000 AED
         </a>
       </div>
     </>
