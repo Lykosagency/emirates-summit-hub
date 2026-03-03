@@ -130,6 +130,26 @@
   .animate-float {
     animation: float 6s ease-in-out infinite;
   }
+
+  /* Unified CTA styles */
+  .cta-primary {
+    @apply inline-block gold-gradient text-primary-foreground font-display text-sm tracking-[0.15em] uppercase px-10 py-4 rounded-sm font-semibold;
+    transition: all 0.5s;
+  }
+  .cta-primary:hover {
+    box-shadow: 0 0 40px hsla(43, 56%, 52%, 0.35);
+    transform: translateY(-2px);
+  }
+
+  .cta-secondary {
+    @apply inline-block border border-primary/40 text-primary font-display text-sm tracking-[0.15em] uppercase px-10 py-4 rounded-sm font-semibold;
+    transition: all 0.5s;
+  }
+  .cta-secondary:hover {
+    border-color: hsl(43, 56%, 52%);
+    box-shadow: 0 0 30px hsla(43, 56%, 52%, 0.15);
+    transform: translateY(-2px);
+  }
 }
 
 html {
