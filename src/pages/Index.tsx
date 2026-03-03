@@ -1,3 +1,4 @@
+import { useLang } from "@/hooks/useLang";
 import Navbar from "@/components/landing/Navbar";
 import Hero from "@/components/landing/Hero";
 import Speakers from "@/components/landing/Speakers";
@@ -7,13 +8,14 @@ import BeforeAfter from "@/components/landing/BeforeAfter";
 import ValueStack from "@/components/landing/ValueStack";
 import TrophyShowcase from "@/components/landing/TrophyShowcase";
 import Pricing from "@/components/landing/Pricing";
-
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
 
 const Index = () => {
+  const { dir } = useLang();
+
   return (
-    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+    <div dir={dir} className="min-h-screen bg-background text-foreground overflow-x-hidden">
       <Navbar />
       <Hero />
       <Speakers />
@@ -22,7 +24,6 @@ const Index = () => {
       <BeforeAfter />
       <ValueStack />
       <Pricing />
-      
       <TrophyShowcase />
       <FAQ />
       <Footer />
