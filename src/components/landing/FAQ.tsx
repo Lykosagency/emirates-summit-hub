@@ -1,29 +1,24 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { useLang } from "@/hooks/useLang";
+
+const faqs = [
+  { q: "Who is this mastermind designed for?", a: "Serious entrepreneurs, agency owners, e-commerce operators, and high-level builders doing $5K–$100K+/month who want to scale through proximity, strategy, and execution — not theory." },
+  { q: "What exactly is included in the 3,000 AED investment?", a: "Full 3-day access to the luxury villa and private yacht, all strategy sessions, guest expert panels, structured networking, private member card, exclusive merchandise, trophy eligibility, and post-event network access." },
+  { q: "Is there a refund policy?", a: "Due to the curated nature and limited capacity of this event, all confirmed seats are non-refundable. Transfers may be considered on a case-by-case basis with advance notice." },
+  { q: "Where exactly does the event take place?", a: "Days 1 and 2 are hosted at a private luxury villa in Dubai. Day 3 is an exclusive session aboard a private yacht. Exact locations are shared upon confirmed booking." },
+  { q: "What happens after the event?", a: "Selected members gain continued access to the Cashflow Dubai private network, including future events, exclusive content, and direct lines to the community." },
+];
 
 export default function FAQ() {
-  const { t } = useLang();
   const { ref, isVisible } = useScrollAnimation();
-
-  const faqs = [
-    { q: t("faq.q1"), a: t("faq.a1") },
-    { q: t("faq.q2"), a: t("faq.a2") },
-    { q: t("faq.q3"), a: t("faq.a3") },
-    { q: t("faq.q4"), a: t("faq.a4") },
-    { q: t("faq.q5"), a: t("faq.a5") },
-  ];
 
   return (
     <section id="faq" className="relative py-20 lg:py-28">
       <div className="container mx-auto px-4">
         <div ref={ref} className={`transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
-          <p className="text-primary/70 text-sm tracking-[0.3em] uppercase text-center mb-3">{t("faq.overline")}</p>
-          <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-4">
-            {t("faq.title1")} <span className="gold-text">{t("faq.title2")}</span>
-          </h2>
+          <p className="text-primary/70 text-sm tracking-[0.3em] uppercase text-center mb-3">Questions</p>
+          <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-4">Frequently <span className="gold-text">Asked</span></h2>
           <div className="w-16 h-px bg-primary/40 mx-auto mb-14" />
-
           <div className="max-w-2xl mx-auto">
             <Accordion type="single" collapsible className="space-y-3">
               {faqs.map((faq, i) => (
