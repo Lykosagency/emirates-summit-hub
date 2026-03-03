@@ -92,7 +92,7 @@ function FeatureRow({
           src={row.image}
           alt={row.imageAlt}
           loading="lazy"
-          className="w-full max-w-sm lg:max-w-md object-contain drop-shadow-[0_20px_40px_hsla(43,56%,52%,0.12)] motion-safe:animate-float group-hover:-translate-y-2 group-hover:drop-shadow-[0_25px_50px_hsla(43,56%,52%,0.2)] transition-all duration-700"
+          className="w-full h-[350px] sm:h-[400px] lg:h-[450px] object-contain drop-shadow-[0_20px_40px_hsla(43,56%,52%,0.12)] motion-safe:animate-float group-hover:-translate-y-2 group-hover:drop-shadow-[0_25px_50px_hsla(43,56%,52%,0.2)] transition-all duration-700"
         />
         {/* Subtle gold edge glow */}
         <div className="absolute inset-0 rounded-2xl pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-700"
