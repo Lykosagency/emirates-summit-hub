@@ -69,7 +69,7 @@ export default function Speakers() {
                   <div className="absolute bottom-0 left-0 right-0 p-5">
                     <div className="w-6 h-px bg-primary/40 mb-3 transition-all duration-500 group-hover:w-10 group-hover:bg-primary" />
                     <p className="text-[10px] tracking-[0.25em] uppercase text-primary/50 mb-2">Revealed Soon</p>
-                    <p className="text-sm text-foreground/90 font-display font-semibold tracking-wide uppercase">{card.industry}</p>
+                    <p className="text-[10px] sm:text-xs text-foreground/90 font-display font-semibold tracking-wide uppercase whitespace-nowrap">{card.industry}</p>
                   </div>
                 </div>
               </div>
