@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const particles = Array.from({ length: 30 }, (_, i) => ({
+const particles = Array.from({ length: 20 }, (_, i) => ({
   id: i,
   left: `${Math.random() * 100}%`,
   top: `${Math.random() * 100}%`,
@@ -12,12 +12,9 @@ const particles = Array.from({ length: 30 }, (_, i) => ({
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background layers */}
       <div className="absolute inset-0 bg-background" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_hsla(43,56%,52%,0.06)_0%,_transparent_70%)]" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_hsla(43,56%,52%,0.04)_0%,_transparent_50%)]" />
 
-      {/* Gold particles */}
       {particles.map((p) => (
         <div
           key={p.id}
@@ -34,10 +31,8 @@ export default function Hero() {
         />
       ))}
 
-      {/* Vignette */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_transparent_40%,_hsl(240,7%,3%)_100%)]" />
 
-      {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center pt-20">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -64,21 +59,20 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="#qualify"
+              href="#pricing"
               className="gold-gradient text-primary-foreground px-10 py-4 rounded-sm text-sm font-semibold tracking-[0.2em] uppercase hover:shadow-[0_0_40px_hsla(43,56%,52%,0.35)] transition-all duration-500 hover:-translate-y-1"
             >
-              Book Your Seat
+              Secure Your Seat
             </a>
             <a
-              href="#qualify"
+              href="#program"
               className="border border-primary/40 text-primary px-10 py-4 rounded-sm text-sm font-semibold tracking-[0.2em] uppercase hover:border-primary hover:shadow-[0_0_30px_hsla(43,56%,52%,0.15)] transition-all duration-500 hover:-translate-y-1"
             >
-              Apply Now
+              View Program
             </a>
           </div>
         </motion.div>
 
-        {/* Scroll indicator */}
         <motion.div
           className="absolute bottom-8 left-1/2 -translate-x-1/2"
           animate={{ y: [0, 8, 0] }}
