@@ -21,9 +21,9 @@ const Index = () => {
       <Program />
       <BeforeAfter />
       <ValueStack />
-      <TrophyShowcase />
       <Pricing />
       <QualificationForm />
+      <TrophyShowcase />
       <FAQ />
       <Footer />
     </div>
