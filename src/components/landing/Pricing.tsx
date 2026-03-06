@@ -95,16 +95,16 @@ export default function Pricing() {
 
                 <div className="w-full h-px bg-border/50 mb-6" />
 
-                <button onClick={() => console.log("Initiating Stripe payment...")} className="w-full cta-primary whitespace-nowrap">
+                <a href="https://elite-horizon-events-fze-llc.zbni.co/u/e6yvi" target="_blank" rel="noopener noreferrer" className="block w-full cta-primary whitespace-nowrap text-center">
                   Pay Now — 3,000 AED
-                </button>
+                </a>
 
                 <div className="flex items-center justify-center gap-2 mt-4">
                   <div className="w-2 h-2 rounded-full bg-primary/60 animate-pulse" />
                   <p className="text-[11px] text-primary/50 tracking-wide">Limited to 30 seats</p>
                 </div>
 
-                <p className="text-[11px] text-muted-foreground/40 text-center mt-2">Secure checkout powered by Stripe</p>
+                <p className="text-[11px] text-muted-foreground/40 text-center mt-2">Secure payment checkout</p>
               </div>
             </div>
           </div>

@@ -88,7 +88,7 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="#pricing" className="cta-primary">Secure Your Seat</a>
+            <a href="https://elite-horizon-events-fze-llc.zbni.co/u/e6yvi" target="_blank" rel="noopener noreferrer" className="cta-primary">Secure Your Seat</a>
             <a href="#program" className="cta-secondary">View Program</a>
           </div>
         </motion.div>
