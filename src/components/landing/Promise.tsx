@@ -34,7 +34,7 @@ export default function Promise() {
           <p className="text-center text-xs tracking-[0.3em] uppercase text-primary/60 mb-4">3 Days. 3 Hours Each. One Outcome.</p>
           <p className="text-center text-sm text-muted-foreground max-w-xl mx-auto mb-10">Designed to help you reach your first consistent 5K/month with a clear 30-day execution path.</p>
           <div className="text-center">
-            <a href="#pricing" className="cta-primary">Secure Your Seat — 3,000 AED</a>
+            <a href="https://elite-horizon-events-fze-llc.zbni.co/u/e6yvi" target="_blank" rel="noopener noreferrer" className="cta-primary">Secure Your Seat — 3,000 AED</a>
           </div>
         </div>
       </div>

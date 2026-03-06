@@ -39,7 +39,7 @@ export default function TrophyShowcase() {
         </div>
 
         <div className="text-center">
-          <a href="#pricing" className="cta-primary">Secure Your Seat — 3,000 AED</a>
+          <a href="https://elite-horizon-events-fze-llc.zbni.co/u/e6yvi" target="_blank" rel="noopener noreferrer" className="cta-primary">Secure Your Seat — 3,000 AED</a>
         </div>
       </div>
     </section>
