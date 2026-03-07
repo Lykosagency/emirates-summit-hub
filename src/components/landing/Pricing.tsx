@@ -161,7 +161,7 @@ export default function Pricing() {
 
                 <div className="w-full h-px bg-border/50 mb-6" />
 
-                <a href="https://elite-horizon-events-fze-llc.zbni.co/u/0y8fv" target="_blank" rel="noopener noreferrer" className="block w-full py-3.5 rounded-sm text-center font-medium tracking-[0.15em] uppercase text-sm border border-muted/30 text-foreground hover:bg-muted/10 transition-all duration-300">
+                <a href="https://elite-horizon-events-fze-llc.zbni.co/u/0y8fv" target="_blank" rel="noopener noreferrer" className="block w-full cta-primary whitespace-nowrap text-center">
                   Watch Live — 1,699 AED
                 </a>
 
