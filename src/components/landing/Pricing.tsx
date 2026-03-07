@@ -49,18 +49,19 @@ export default function Pricing() {
           <p className="text-sm text-muted-foreground text-center max-w-md mx-auto mb-4">One price. Full access. No upsells inside the room.</p>
           <div className="w-16 h-px bg-primary/40 mx-auto mb-14" />
 
-          <div className="max-w-lg mx-auto">
+          <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+            {/* In-Person Pass */}
             <div className="relative glass-card rounded-2xl overflow-hidden gold-border-glow">
               <div className="h-1 w-full gold-gradient" />
-              <div className="p-6 sm:p-8 lg:p-12">
+              <div className="p-6 sm:p-8">
                 <div className="flex justify-center mb-6">
-                  <span className="text-[10px] tracking-[0.3em] uppercase text-primary border border-primary/30 rounded-full px-5 py-1.5">All-Access Pass</span>
+                  <span className="text-[10px] tracking-[0.3em] uppercase text-primary border border-primary/30 rounded-full px-5 py-1.5">In-Person Pass</span>
                 </div>
 
                 <div className="text-center mb-6">
                   <div className="flex items-baseline justify-center gap-2">
-                    <span className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold gold-text">3,000</span>
-                    <span className="text-lg sm:text-xl text-primary/80 font-display uppercase">AED</span>
+                    <span className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold gold-text">3,000</span>
+                    <span className="text-lg text-primary/80 font-display uppercase">AED</span>
                   </div>
                   <p className="text-xs text-muted-foreground/50 mt-2">One-time payment — No recurring fees</p>
                 </div>
@@ -102,6 +103,71 @@ export default function Pricing() {
                 <div className="flex items-center justify-center gap-2 mt-4">
                   <div className="w-2 h-2 rounded-full bg-primary/60 animate-pulse" />
                   <p className="text-[11px] text-primary/50 tracking-wide">Limited to 30 seats</p>
+                </div>
+
+                <p className="text-[11px] text-muted-foreground/40 text-center mt-2">Secure payment checkout</p>
+              </div>
+            </div>
+
+            {/* Live Stream Pass */}
+            <div className="relative glass-card rounded-2xl overflow-hidden border border-muted/20">
+              <div className="h-1 w-full bg-muted/30" />
+              <div className="p-6 sm:p-8">
+                <div className="flex justify-center mb-6">
+                  <span className="text-[10px] tracking-[0.3em] uppercase text-muted-foreground border border-muted/30 rounded-full px-5 py-1.5">Live Stream Pass</span>
+                </div>
+
+                <div className="text-center mb-6">
+                  <div className="flex items-baseline justify-center gap-2">
+                    <span className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground">1,699</span>
+                    <span className="text-lg text-muted-foreground font-display uppercase">AED</span>
+                  </div>
+                  <p className="text-xs text-muted-foreground/50 mt-2">Watch live from anywhere in the world</p>
+                </div>
+
+                {/* Countdown */}
+                <div className="glass-card rounded-lg p-4 mb-6">
+                  <p className="text-[10px] tracking-[0.25em] uppercase text-muted-foreground/50 text-center mb-3">Event starts in</p>
+                  <div className="flex items-center justify-center gap-3 sm:gap-5">
+                    {[
+                      { val: countdown.days, label: "Days" },
+                      { val: countdown.hours, label: "Hrs" },
+                      { val: countdown.minutes, label: "Min" },
+                      { val: countdown.seconds, label: "Sec" },
+                    ].map((unit, i) => (
+                      <div key={i} className="flex flex-col items-center">
+                        <span className="font-display text-xl sm:text-2xl font-bold text-foreground leading-none">{String(unit.val).padStart(2, "0")}</span>
+                        <span className="text-[9px] tracking-[0.2em] uppercase text-muted-foreground mt-1">{unit.label}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="w-full h-px bg-border/50 mb-6" />
+
+                <ul className="space-y-3 mb-8">
+                  {[
+                    "Full 3-Day Live Stream Access",
+                    "Watch All Sessions in Real-Time",
+                    "5 High-Level Guest Speakers",
+                    "Interactive Q&A Participation",
+                    "Post-Event Replay Access",
+                  ].map((item, i) => (
+                    <li key={i} className="flex items-center gap-3 text-sm text-foreground/80">
+                      <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground/50 shrink-0" />{item}
+                    </li>
+                  ))}
+                </ul>
+
+                <div className="w-full h-px bg-border/50 mb-6" />
+
+                <a href="https://elite-horizon-events-fze-llc.zbni.co/u/0y8fv" target="_blank" rel="noopener noreferrer" className="block w-full py-3.5 rounded-sm text-center font-medium tracking-[0.15em] uppercase text-sm border border-muted/30 text-foreground hover:bg-muted/10 transition-all duration-300">
+                  Watch Live — 1,699 AED
+                </a>
+
+                <div className="flex items-center justify-center gap-2 mt-4">
+                  <div className="w-2 h-2 rounded-full bg-muted-foreground/40 animate-pulse" />
+                  <p className="text-[11px] text-muted-foreground/50 tracking-wide">Available worldwide</p>
                 </div>
 
                 <p className="text-[11px] text-muted-foreground/40 text-center mt-2">Secure payment checkout</p>
