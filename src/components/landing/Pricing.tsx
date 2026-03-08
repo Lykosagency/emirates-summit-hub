@@ -96,8 +96,8 @@ export default function Pricing() {
 
                 <div className="w-full h-px bg-border/50 mb-6" />
 
-                <a href="https://elite-horizon-events-fze-llc.zbni.co/u/e6yvi" target="_blank" rel="noopener noreferrer" className="block w-full cta-primary whitespace-nowrap text-center">
-                  Pay Now — 3,000 AED
+                <a href="https://elite-horizon-events-fze-llc.zbooni.com/products/dubai-private-mastermind" target="_blank" rel="noopener noreferrer" className="block w-full cta-primary whitespace-nowrap text-center">
+                  Pay Now — 4,099 AED
                 </a>
 
                 <div className="flex items-center justify-center gap-2 mt-4">
