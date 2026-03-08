@@ -60,7 +60,7 @@ export default function Pricing() {
 
                 <div className="text-center mb-6">
                   <div className="flex items-baseline justify-center gap-2">
-                    <span className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold gold-text">3,000</span>
+                    <span className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold gold-text">4,099</span>
                     <span className="text-lg text-primary/80 font-display uppercase">AED</span>
                   </div>
                   <p className="text-xs text-muted-foreground/50 mt-2">One-time payment — No recurring fees</p>
