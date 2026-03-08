@@ -54,7 +54,7 @@ export default function Navbar() {
       )}
 
       <div className="fixed bottom-0 left-0 right-0 z-50 lg:hidden bg-background/90 backdrop-blur-xl border-t border-primary/10 p-3">
-        <a href="https://elite-horizon-events-fze-llc.zbni.co/u/e6yvi" target="_blank" rel="noopener noreferrer" className="block gold-gradient text-primary-foreground text-center py-3 rounded-sm font-medium tracking-[0.15em] uppercase text-sm whitespace-nowrap">Secure Your Seat — 3,000 AED</a>
+        <a href="https://elite-horizon-events-fze-llc.zbooni.com/products/dubai-private-mastermind" target="_blank" rel="noopener noreferrer" className="block gold-gradient text-primary-foreground text-center py-3 rounded-sm font-medium tracking-[0.15em] uppercase text-sm whitespace-nowrap">Secure Your Seat — 4,099 AED</a>
       </div>
     </>
   );
