@@ -31,7 +31,7 @@ export default function Navbar() {
               <a key={link.href} href={link.href} className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors tracking-wide uppercase">{link.label}</a>
             ))}
           </div>
-          <a href="https://elite-horizon-events-fze-llc.zbni.co/u/e6yvi" target="_blank" rel="noopener noreferrer" className="hidden lg:inline-flex gold-gradient text-primary-foreground text-sm tracking-[0.2em] uppercase px-6 py-2.5 rounded-sm font-medium hover:shadow-[0_0_30px_hsla(43,56%,52%,0.3)] transition-all duration-300 hover:-translate-y-0.5">Secure Your Seat</a>
+          <a href="https://elite-horizon-events-fze-llc.zbooni.com/products/dubai-private-mastermind" target="_blank" rel="noopener noreferrer" className="hidden lg:inline-flex gold-gradient text-primary-foreground text-sm tracking-[0.2em] uppercase px-6 py-2.5 rounded-sm font-medium hover:shadow-[0_0_30px_hsla(43,56%,52%,0.3)] transition-all duration-300 hover:-translate-y-0.5">Secure Your Seat</a>
           <button onClick={() => setMobileOpen(!mobileOpen)} className="lg:hidden text-foreground p-2" aria-label="Toggle menu">
             <div className="space-y-1.5">
               <span className={`block w-6 h-0.5 bg-primary transition-all ${mobileOpen ? "rotate-45 translate-y-2" : ""}`} />
