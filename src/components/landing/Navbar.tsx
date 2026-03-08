@@ -48,7 +48,7 @@ export default function Navbar() {
             {navLinks.map((link) => (
               <a key={link.href} href={link.href} onClick={() => setMobileOpen(false)} className="text-2xl font-display font-light text-foreground hover:text-primary transition-colors uppercase">{link.label}</a>
             ))}
-            <a href="https://elite-horizon-events-fze-llc.zbni.co/u/e6yvi" target="_blank" rel="noopener noreferrer" onClick={() => setMobileOpen(false)} className="cta-primary text-center mt-4">Secure Your Seat</a>
+            <a href="https://elite-horizon-events-fze-llc.zbooni.com/products/dubai-private-mastermind" target="_blank" rel="noopener noreferrer" onClick={() => setMobileOpen(false)} className="cta-primary text-center mt-4">Secure Your Seat</a>
           </div>
         </div>
       )}

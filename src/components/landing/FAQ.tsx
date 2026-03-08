@@ -3,7 +3,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqs = [
   { q: "Who is this mastermind designed for?", a: "Serious entrepreneurs, agency owners, e-commerce operators, and high-level builders doing $5K–$100K+/month who want to scale through proximity, strategy, and execution — not theory." },
-  { q: "What exactly is included in the 3,000 AED investment?", a: "Full 3-day access to the luxury villa and private yacht, all strategy sessions, guest expert panels, structured networking, private member card, exclusive merchandise, trophy eligibility, and post-event network access." },
+  { q: "What exactly is included in the 4,099 AED investment?", a: "Full 3-day access to the luxury villa and private yacht, all strategy sessions, guest expert panels, structured networking, private member card, exclusive merchandise, trophy eligibility, and post-event network access." },
   { q: "Is there a refund policy?", a: "Due to the curated nature and limited capacity of this event, all confirmed seats are non-refundable. Transfers may be considered on a case-by-case basis with advance notice." },
   { q: "Where exactly does the event take place?", a: "Days 1 and 2 are hosted at a private luxury villa in Dubai. Day 3 is an exclusive session aboard a private yacht. Exact locations are shared upon confirmed booking." },
   { q: "What happens after the event?", a: "Selected members gain continued access to the Cashflow Dubai private network, including future events, exclusive content, and direct lines to the community." },
