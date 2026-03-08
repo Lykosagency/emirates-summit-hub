@@ -119,7 +119,7 @@ export default function Pricing() {
 
                 <div className="text-center mb-6">
                   <div className="flex items-baseline justify-center gap-2">
-                    <span className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground">1,699</span>
+                    <span className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground">2,499</span>
                     <span className="text-lg text-muted-foreground font-display uppercase">AED</span>
                   </div>
                   <p className="text-xs text-muted-foreground/50 mt-2">Watch live from anywhere in the world</p>
